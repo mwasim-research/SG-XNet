@@ -1,0 +1,1 @@
+{"target": "dblpv7", "tag": "gin", "model": "gin", "k": 5, "split": 3, "lr": 0.001, "cka": 0.72474604845047, "wchange": 0.23378196521034206, "zs_test": 67.13023781776428, "ft_test": 64.02931809425354, "mac_ft_test": 64.02931809425354, "epoch": 119, "seconds": 9.0}

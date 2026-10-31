@@ -1,0 +1,1 @@
+{"target": "citationv1", "tag": "gcn", "model": "gcn", "k": 5, "split": 2, "lr": 0.001, "cka": 0.6923627257347107, "wchange": 0.06680305907770391, "zs_test": 76.1349618434906, "ft_test": 68.79273653030396, "mac_ft_test": 68.79273653030396, "epoch": 10, "seconds": 27.7}

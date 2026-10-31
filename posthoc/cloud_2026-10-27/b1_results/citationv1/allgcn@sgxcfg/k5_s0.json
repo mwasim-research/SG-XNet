@@ -1,0 +1,1 @@
+{"target": "citationv1", "tag": "allgcn@sgxcfg", "model": "abl_allgcn", "k": 5, "split": 0, "lr": 0.001, "cka": 0.8408360481262207, "wchange": 0.3563974363814622, "zs_test": 77.95717120170593, "ft_test": 76.91445350646973, "mac_ft_test": 76.91445350646973, "epoch": 38, "seconds": 63.9}

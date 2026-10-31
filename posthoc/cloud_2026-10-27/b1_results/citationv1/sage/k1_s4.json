@@ -1,0 +1,1 @@
+{"target": "citationv1", "tag": "sage", "model": "sage", "k": 1, "split": 4, "lr": 0.001, "cka": 0.8072604537010193, "wchange": 0.024647641056646387, "zs_test": 67.37501621246338, "ft_test": 53.29381227493286, "mac_ft_test": 53.29381227493286, "epoch": 0, "seconds": 155.8}

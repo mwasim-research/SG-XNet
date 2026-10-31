@@ -1,0 +1,1 @@
+{"target": "dblpv7", "tag": "sage", "model": "sage", "k": 5, "split": 0, "lr": 0.001, "cka": 0.8078816533088684, "wchange": 0.02885209671379408, "zs_test": 65.7271683216095, "ft_test": 66.40360951423645, "mac_ft_test": 66.40360951423645, "epoch": 2, "seconds": 18.3}

@@ -1,0 +1,1 @@
+{"target": "citationv1", "tag": "mlp", "model": "mlp", "k": 1, "split": 1, "lr": 0.001, "cka": 0.7846285104751587, "wchange": 0.060519246672137046, "zs_test": 54.882001876831055, "ft_test": 53.43921184539795, "mac_ft_test": 53.43921184539795, "epoch": 11, "seconds": 13.2}

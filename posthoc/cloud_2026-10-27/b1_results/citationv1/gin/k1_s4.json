@@ -1,0 +1,1 @@
+{"target": "citationv1", "tag": "gin", "model": "gin", "k": 1, "split": 4, "lr": 0.001, "cka": 0.9310775995254517, "wchange": 0.038037609128292044, "zs_test": 75.06990432739258, "ft_test": 67.72173047065735, "mac_ft_test": 67.72173047065735, "epoch": 0, "seconds": 88.4}
