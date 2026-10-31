@@ -125,6 +125,10 @@ nodes averaged over 200 epochs, had no validation-based model selection, used di
 and the baselines, and its "feature extraction" runs did not freeze any layer. Its results are withdrawn. Version 2
 replaces it with the protocol above.
 
+## License
+
+The code and the released result files are under the MIT License (`LICENSE`). The datasets are not included and keep their own licences.
+
 ## Citation
 
 See `CITATION.cff`. Please cite the paper once published; until then cite this repository and its Zenodo archive.
