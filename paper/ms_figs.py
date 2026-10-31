@@ -37,7 +37,7 @@ for ax,k in zip(axs,[1,5]):
     d=D[D.k==k]; x=np.arange(len(d))
     ax.bar(x-w,d.plain,w,label='plain fine-tuning',color='#999999'); ax.bar(x,d.l2sp,w,label='L2-SP fine-tuning',color='#4C72B0'); ax.bar(x+w,d.frozen,w,label='frozen body',color='#DD8452')
     ax.axhline(0,color='black',lw=0.6); ax.set_xticks(x); ax.set_xticklabels([NM[m] for m in d.model],rotation=30,ha='right'); ax.set_title(f'k = {k}',fontsize=9)
-axs[0].set_ylabel('accuracy − zero-shot (points)'); axs[1].legend(frameon=False,fontsize=7.5)
+axs[0].set_ylabel('micro-F1 − zero-shot (points)'); axs[1].legend(frameon=False,fontsize=7.5)
 save(fig,'fig_l2sp')
 # 3 when does transfer work: mean FT gain over scratch per pair (all models), k=1, incl. Twitch
 sc=f[f.cond=='scratch'].set_index(['target','model','k','split']).test

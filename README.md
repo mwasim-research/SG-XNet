@@ -73,7 +73,7 @@ Datasets are not redistributed here. Put them under `data/raw/` as follows (proc
 bash scripts/unpack_results.sh          # unzips results_archive/*.zip into results/ and results_posthoc_*/
 python paper/ms_tables.py               # main-text tables (writes paper/output/numbers.json)
 python paper/ms_supp.py                 # supplementary tables (paper/output/supp_tables.tex)
-python paper/ms_figs.py                 # Figures 4, 5, 7, 8 (results_posthoc_overnight/figures/)
+python paper/ms_figs.py                 # Figures 4, 5, 6 and S1 (results_posthoc_overnight/figures/)
 python paper/heat3.py                   # Figure 3 (results_posthoc_review3/figures/)
 python paper/rv3.py; python paper/rv3b.py   # robustness analyses added in the final revision
 ```
@@ -124,6 +124,13 @@ Version 1 (in `legacy_v1/`) trained each model once on one split with fixed hype
 nodes averaged over 200 epochs, had no validation-based model selection, used different learning rates for SG-XNet
 and the baselines, and its "feature extraction" runs did not freeze any layer. Its results are withdrawn. Version 2
 replaces it with the protocol above.
+
+## Version history
+
+| Version | Changes |
+|---|---|
+| 2.0.1 | Figure labels only, no change to any result, table or number: the protocol diagram describes the frozen condition correctly (body fixed, output layer trained); the zero-shot legend of the budget curves reads "no target training"; the L2-SP figure's axis is labelled micro-F1; dataset names in figures are written as in the paper (roman-empire, chameleon-f, ...). Figure and table numbers in `paper/README.md` follow the final manuscript. The figures inside `results_archive/` were made with 2.0.0; rerun the scripts above to regenerate them with the corrected labels |
+| 2.0.0 | Controlled re-evaluation (code, result files, analysis scripts) |
 
 ## License
 
