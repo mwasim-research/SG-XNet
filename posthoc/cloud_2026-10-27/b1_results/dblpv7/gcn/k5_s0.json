@@ -1,0 +1,1 @@
+{"target": "dblpv7", "tag": "gcn", "model": "gcn", "k": 5, "split": 0, "lr": 0.001, "cka": 0.7823594808578491, "wchange": 0.18858334140179067, "zs_test": 72.90492057800293, "ft_test": 68.3013916015625, "mac_ft_test": 68.3013916015625, "epoch": 43, "seconds": 17.2}

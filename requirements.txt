@@ -1,0 +1,7 @@
+# Versions used for the revision experiments (MacBook Pro M4 Pro, macOS, Python 3.11)
+torch==2.8.0
+torch_geometric==2.6.1
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.6
+matplotlib==3.11.2

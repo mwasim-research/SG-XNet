@@ -1,0 +1,1 @@
+{"target": "dblpv7", "tag": "sgx@gcncfg", "model": "sgx", "k": 5, "split": 2, "lr": 0.001, "cka": 0.8077167868614197, "wchange": 0.060573865623185626, "zs_test": 70.68771123886108, "ft_test": 68.60203146934509, "mac_ft_test": 68.60203146934509, "epoch": 6, "seconds": 15.4}

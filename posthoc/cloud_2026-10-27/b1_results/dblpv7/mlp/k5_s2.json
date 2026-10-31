@@ -1,0 +1,1 @@
+{"target": "dblpv7", "tag": "mlp", "model": "mlp", "k": 5, "split": 2, "lr": 0.01, "cka": 0.9001742601394653, "wchange": 0.13452854817615614, "zs_test": 57.08380341529846, "ft_test": 50.0187873840332, "mac_ft_test": 50.0187873840332, "epoch": 0, "seconds": 10.8}

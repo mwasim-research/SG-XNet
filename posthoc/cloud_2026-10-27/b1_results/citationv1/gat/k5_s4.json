@@ -1,0 +1,1 @@
+{"target": "citationv1", "tag": "gat", "model": "gat", "k": 5, "split": 4, "lr": 0.001, "cka": 0.6430655717849731, "wchange": 0.34457110134907204, "zs_test": 73.3916163444519, "ft_test": 68.47119331359863, "mac_ft_test": 68.47119331359863, "epoch": 17, "seconds": 125.0}

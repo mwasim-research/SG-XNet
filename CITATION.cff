@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper and this software archive."
+title: "SG-XNet: Structured Graph eXtended Network (code and results, version 2)"
+version: "2.0.0"
+date-released: "2026-11-01"
+repository-code: "https://github.com/mwasim-research/SG-XNet"
+authors:
+  - family-names: Khan
+    given-names: Raheel
+  - family-names: Wasim
+    given-names: Muhammad
+  - family-names: Alahmari
+    given-names: Saad
+  - family-names: Waseem
+    given-names: Athar
