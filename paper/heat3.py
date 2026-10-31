@@ -31,5 +31,5 @@ for k in ks:
             r=I.loc[(k,s,t,m)]; M[i,j]=r.gain; S[i][j]=bool(r.p_holm<0.05)
             table.append(dict(k=k,source=s,target=t,model=m,gain=round(r.gain,2),p_t=r.p_t,p_holm=r.p_holm))
     mats.append(M); stars.append(S)
-F._heatmap_panels(mats,[F.pair_label(s,t) for s,t in pairs],[F.SHORT[m] for m in models],ks,"k = {k} labels per class","gain of fine-tuning over scratch (points)","fig_gain_heatmap_finetune_full",table,stars,group_breaks=breaks)
+F._heatmap_panels(mats,[F.pair_label(s,t) for s,t in pairs],[F.SHORT[m] for m in models],ks,"k = {k} label(s) per class","gain of fine-tuning over scratch (points)","fig_gain_heatmap_finetune_full",table,stars,group_breaks=breaks)
 T=pd.DataFrame(table); print('stars',sum(T.p_holm<0.05),'cells',len(T))

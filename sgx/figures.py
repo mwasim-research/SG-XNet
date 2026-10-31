@@ -41,15 +41,15 @@ COND = {  # colour, marker, legend label
     "scratch": (INK2, "o", "From scratch"),
     "finetune": (BLUE, "s", "Fine-tuned (supervised pretraining)"),
     "frozen": (ORANGE, "^", "Frozen pretrained body"),
-    "zeroshot": (AQUA, "D", "Zero-shot (no target labels)"),
+    "zeroshot": (AQUA, "D", "Zero-shot (no target training)"),
     "ctrl_shuffle": (BLUE_LIGHT, "v", "Control: shuffled source labels"),
     "ctrl_random": (MUTED, "X", "Control: random source graph"),
     "ssl": (ORANGE, "P", "Self-supervised pretraining (best of DGI, GRACE)"),
     "da": (AQUA, "h", "Domain adaptation (best of DANN, UDAGCN)"),
 }
 DS = {"cora": "Cora", "citeseer": "CiteSeer", "pubmed": "PubMed", "dblp": "DBLP", "acmv9": "ACMv9",
-      "citationv1": "Citationv1", "dblpv7": "DBLPv7", "roman_empire": "Roman-empire",
-      "amazon_ratings": "Amazon-ratings", "chameleon_filtered": "Chameleon-f", "squirrel_filtered": "Squirrel-f"}
+      "citationv1": "Citationv1", "dblpv7": "DBLPv7", "roman_empire": "roman-empire",
+      "amazon_ratings": "amazon-ratings", "chameleon_filtered": "chameleon-f", "squirrel_filtered": "squirrel-f"}
 CODE = {"cora": "Co", "citeseer": "CS", "pubmed": "PM", "dblp": "DB", "acmv9": "A", "citationv1": "C",
         "dblpv7": "D", "roman_empire": "RE", "amazon_ratings": "AR", "chameleon_filtered": "Ch",
         "squirrel_filtered": "Sq"}  # short codes for point labels (A, C, D as in the ACDNE literature)
@@ -654,7 +654,7 @@ def fig_protocol_diagram() -> str:
          "30 validation nodes per class, all other nodes for testing", fc="white", fs=6.4)
     conds = [("from scratch", "random initialisation"),
              ("fine-tuned", "start from $\\theta$, train all weights"),
-             ("frozen body", "start from $\\theta$, train encoder and head only"),
+             ("frozen body", "start from $\\theta$, body fixed, output layer trained"),
              ("zero-shot", "use $\\theta_s$ as it is (aligned graphs only)"),
              ("domain adaptation", "DANN, UDAGCN: joint training on $G_s$ and $G_t$")]
     ys = [1.95 - i * 0.31 for i in range(len(conds))]
